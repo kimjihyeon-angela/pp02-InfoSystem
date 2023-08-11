@@ -38,6 +38,8 @@
                 <ColumnDefinition Width="120"/>
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
+            <Label Grid.Row="4" Grid.Column="0" Content="연락처 : " FontSize="15" FontWeight="Bold"
+                   HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10" />
             <Label Grid.Row="0" Grid.Column="0" Content="이       름 : " FontSize="15" FontWeight="Bold"
                    HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"/>
             <Label Grid.Row="1" Grid.Column="0" Content="생년  월일 : " FontSize="15" FontWeight="Bold"
@@ -46,14 +48,14 @@
                    HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"/>
             <Label Grid.Row="3" Grid.Column="0" Content="인정  기한 : " FontSize="15" FontWeight="Bold"
                    HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"/>
-            <Label Grid.Row="4" Grid.Column="0" Content="비상연락처 : " FontSize="15" FontWeight="Bold"
+            <Label Grid.Row="5" Grid.Column="0" Content="비상연락처 : " FontSize="15" FontWeight="Bold"
                    HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"/>
-            <Label Grid.Row="5" Grid.Column="0" Content="등         급 : " FontSize="15" FontWeight="Bold"
+            <Label Grid.Row="6" Grid.Column="0" Content="등         급 : " FontSize="15" FontWeight="Bold"
                    HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"/>
-            <Label Grid.Row="6" Grid.Column="0" Content="감   경   률 : " FontSize="15" FontWeight="Bold"
+            <Label Grid.Row="7" Grid.Column="0" Content="감   경   률 : " FontSize="15" FontWeight="Bold"
                    HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"/>
 
-            <Button Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Margin="100, 10" Content="저장"
+            <Button Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" Margin="100, 10" Content="저장"
                     Style="{StaticResource MahApps.Styles.Button.Dialogs.Accent}"/>
 
             <TextBox Grid.Row="0" Grid.Column="1" Margin="10,5" FontSize="15" 
@@ -102,6 +104,40 @@
             
             <ComboBox Grid.Row="6" Grid.Column="1" Margin="10, 5" 
                       Text="감경률"/>
+
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="1" Margin="10,0" HorizontalAlignment="Left">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Content="이       름 : " FontSize="15" FontWeight="Bold"
+                   HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"/>
+            <Label Grid.Row="1" Grid.Column="0" Content="생년  월일 : " FontSize="15" FontWeight="Bold"
+                   HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"/>
+            <Label Grid.Row="2" Grid.Column="0" Content="인정  번호 : " FontSize="15" FontWeight="Bold"
+                   HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"/>
+            <Label Grid.Row="3" Grid.Column="0" Content="인정  기한 : " FontSize="15" FontWeight="Bold"
+                   HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"/>
+            <Label Grid.Row="4" Grid.Column="0" Content="비상연락처 : " FontSize="15" FontWeight="Bold"
+                   HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"/>
+            <Label Grid.Row="5" Grid.Column="0" Content="등         급 : " FontSize="15" FontWeight="Bold"
+                   HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"/>
+            <Label Grid.Row="6" Grid.Column="0" Content="감   경   률 : " FontSize="15" FontWeight="Bold"
+                   HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"/>
 
         </Grid>
 
