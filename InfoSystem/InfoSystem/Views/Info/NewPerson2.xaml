@@ -87,22 +87,22 @@
                      mah:TextBoxHelper.UseFloatingWatermark="True"
                      mah:TextBoxHelper.ClearTextButton="True"/>
 
-            <TextBox Grid.Row="3" Grid.Column="1" Margin="10,5" FontSize="15" 
+            <TextBox Grid.Row="4" Grid.Column="1" Margin="10,5" FontSize="15" 
                      Text="{Binding InEmail}"
-                     mah:TextBoxHelper.Watermark="인정기한을 입력하세요" 
+                     mah:TextBoxHelper.Watermark="연락처를 입력하세요" 
                      mah:TextBoxHelper.UseFloatingWatermark="True"
                      mah:TextBoxHelper.ClearTextButton="True"/>
             
-            <TextBox Grid.Row="4" Grid.Column="1" Margin="10,5" FontSize="15" 
+            <TextBox Grid.Row="5" Grid.Column="1" Margin="10,5" FontSize="15" 
                      Text="{Binding InEmail}"
                      mah:TextBoxHelper.Watermark="비상연락처를 입력하세요" 
                      mah:TextBoxHelper.UseFloatingWatermark="True"
                      mah:TextBoxHelper.ClearTextButton="True"/>
 
-            <ComboBox Grid.Row="5" Grid.Column="1" Margin="10, 5" 
+            <ComboBox Grid.Row="6" Grid.Column="1" Margin="10, 5" 
                       Text="등급"/>
             
-            <ComboBox Grid.Row="6" Grid.Column="1" Margin="10, 5" 
+            <ComboBox Grid.Row="7" Grid.Column="1" Margin="10, 5" 
                       Text="감경률"/>
 
         </Grid>
