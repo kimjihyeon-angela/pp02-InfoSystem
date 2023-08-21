@@ -8,8 +8,8 @@
     xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
     xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
     mc:Ignorable="d"
-    Title="InfoSystem App" Height="500" Width="900"
-    WindowStartupLocation="CenterScreen" MinHeight="450" MinWidth="670"
+    Title="InfoSystem App" Height="650" Width="1200"
+    WindowStartupLocation="CenterScreen" MinHeight="650" MinWidth="900"
     Loaded="MetroWindow_Loaded" Closing="MetroWindow_Closing">
 
     <!-- 메인화면 아이콘 설정 -->

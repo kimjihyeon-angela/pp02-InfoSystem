@@ -7,8 +7,9 @@
     xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
     xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
     xmlns:local="clr-namespace:InfoSystem.Views.Info"
-    Width="800" 
-    mc:Ignorable="d">
+    MinHeight="550" MinWidth="800"
+    VerticalAlignment="Center" HorizontalAlignment="Center"
+    mc:Ignorable="d" >
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
@@ -100,10 +101,10 @@
                      mah:TextBoxHelper.ClearTextButton="True"/>
 
             <ComboBox Grid.Row="6" Grid.Column="1" Margin="10, 5" 
-                      Text="등급"/>
+                      Text="등급을 선택하세요"/>
             
             <ComboBox Grid.Row="7" Grid.Column="1" Margin="10, 5" 
-                      Text="감경률"/>
+                      Text="감경률을 선택하세요"/>
 
         </Grid>
 
