@@ -224,6 +224,9 @@
     <Compile Include="Views\Info\NewPerson2.xaml.cs">
       <DependentUpon>NewPerson2.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Info\NewPerson3.xaml.cs">
+      <DependentUpon>NewPerson3.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -241,6 +244,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Info\NewPerson2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Info\NewPerson3.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

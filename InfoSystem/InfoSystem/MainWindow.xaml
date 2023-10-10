@@ -58,8 +58,12 @@
         </StackPanel>
 
         <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="39*"/>
+                <ColumnDefinition Width="1153*"/>
+            </Grid.ColumnDefinitions>
             <!-- UserControl Embed 가능 -->
-            <ContentControl x:Name="ActiveItem" Background="Lavender" />
+            <ContentControl x:Name="ActiveItem" Background="Lavender" Grid.ColumnSpan="2" />
         </Grid>
 
         <StatusBar Grid.Row="2">
